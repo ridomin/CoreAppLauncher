@@ -21,6 +21,7 @@ static class Program
     <RepositoryUrl>https://github.com/ridomin/CoreAppLauncher</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>DesktopNetCore</PackageTags>
+    <PackageId>Rido.CoreAppLauncher</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <FrameworkReference Include="Microsoft.DesktopUI" />
