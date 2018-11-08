@@ -18,4 +18,4 @@ static class Program
 }
 ```
 
-NuGet package available at http://nuget.org/packages/Rido.CoreAppLauncher
+NuGet package available at https://www.nuget.org/packages/Rido.CoreAppLauncher
