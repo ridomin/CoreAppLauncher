@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>0.0.1-Beta1</Version>
+    <Authors>Rido</Authors>
+    <Company>HOW</Company>
+    <Description>Launches a WPF application. Usage:
+static class Program
+    {
+        class MyApp : MyWPFApp.App, CoreAppLauncher.IIntializable{}
+
+        [STAThread]
+        static void Main()
+        {
+            CoreAppLauncher.Launcher.WPFLauncher(new MyApp());
+        }
+    }</Description>
+    <Copyright>copyleft</Copyright>
+    <PackageProjectUrl>https://github.com/ridomin/CoreAppLauncher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ridomin/CoreAppLauncher</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>DesktopNetCore</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.DesktopUI" />
+  </ItemGroup>
+
+</Project>
